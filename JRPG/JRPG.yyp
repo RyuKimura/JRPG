@@ -405,6 +405,14 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "f4b950f1-6c73-4836-8dd9-f07618e02004",
+            "Value": {
+                "id": "0c35b951-c640-4537-9e70-a501ddf5ed1c",
+                "resourcePath": "objects\\inventoryManager\\inventoryManager.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [

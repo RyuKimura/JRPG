@@ -7,7 +7,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "93e74872-0da1-4546-a6bc-291f11b6eb66"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_197B1E60","id": "93e74872-0da1-4546-a6bc-291f11b6eb66","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_197B1E60","objId": "44a84656-7e4c-4557-94e4-f036ce0df2f0","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 288,"y": 416}
             ],
             "layers": [
 
@@ -43,7 +43,7 @@
             "id": "6e52c45d-970d-44e9-8a63-8731819e6f49",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4285098345 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,

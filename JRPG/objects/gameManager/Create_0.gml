@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// declare globals
+
+globalvar player, enemy, playerPartySize, enemyPartySize;
+
 // Player Start Positions
 
 startPositionPlayerX[1] = 240;

@@ -111,6 +111,22 @@
             }
         },
         {
+            "Key": "32fc0a69-c178-407f-8521-e4f9a9b82d12",
+            "Value": {
+                "id": "64eda745-f310-4ea7-8640-98356e208b4d",
+                "resourcePath": "sprites\\Attack_icon_spr\\Attack_icon_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "387bde28-d65d-4be3-873c-efc0d5df2aa6",
+            "Value": {
+                "id": "fb864399-b623-499d-883e-59cab641239d",
+                "resourcePath": "sprites\\Spells_icon_spr\\Spells_icon_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ce431d8-3a17-4e2f-99d3-cfd7ce4b49c4",
             "Value": {
                 "id": "3babc16f-7a1a-4315-830a-d63bc2c844cc",
@@ -239,6 +255,14 @@
             }
         },
         {
+            "Key": "93f3052f-d744-4575-b068-9ea2304fc9b0",
+            "Value": {
+                "id": "a9cc3811-ffc2-4db7-9154-d50f6b7b6b68",
+                "resourcePath": "sprites\\select_icon_spr\\select_icon_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9a9c6903-fee4-4230-891d-c84d64069d34",
             "Value": {
                 "id": "4b665c78-c140-4ab4-8356-125eb455bf71",
@@ -260,6 +284,22 @@
                 "id": "112ba380-e728-4fbc-9915-21634bb5fb7f",
                 "resourcePath": "objects\\gameManager\\gameManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b41a0d13-f022-498b-ab5e-31b423233a10",
+            "Value": {
+                "id": "fe71a73b-b428-48b1-bdcf-0cb94cab214d",
+                "resourcePath": "sprites\\Block_icon_spr\\Block_icon_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b69d7ae6-fdad-426d-803c-256485b531b9",
+            "Value": {
+                "id": "1ea8f1db-8cbc-421f-b0bb-48845d7dacac",
+                "resourcePath": "sprites\\Items_icon_spr\\Items_icon_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -323,6 +363,14 @@
             "Value": {
                 "id": "83f1ed8d-65a1-4aa4-9594-36302647b8cb",
                 "resourcePath": "sprites\\Sprite_Wall\\Sprite_Wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e21a0d1d-93dd-4070-bc5e-6f35c842a228",
+            "Value": {
+                "id": "8de28df4-f154-46f4-b280-1cde84704f6f",
+                "resourcePath": "sprites\\Flee_icon_spr\\Flee_icon_spr.yy",
                 "resourceType": "GMSprite"
             }
         },

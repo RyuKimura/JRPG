@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "Generation",
     "eventList": [
-        
+        {
+            "id": "4956c4ea-1a8a-4bad-886d-869bd7cd2b0f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4ea2dcdb-e910-4a32-a0c0-523099e08306"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

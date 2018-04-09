@@ -1,6 +1,8 @@
 ///MapGen(wallObject,numTunnels,maxTunnelLength)
 
 instance_destroy(Wall);
+instance_destroy(entrance);
+instance_destroy(goal);
 
 randomize();
 
@@ -32,6 +34,7 @@ while(true){
 }
 
 instance_destroy(array[randX,randY]);
+instance_create_depth(randX * gap, randY * gap, 0 , entrance);
 
 while(argument1 != 0){
 	var len = floor(random_range(1,argument2));
@@ -47,4 +50,17 @@ while(argument1 != 0){
 		instance_destroy(array[randX,randY]);
 	}
 	argument1--;
+}
+
+var finish = instance_create_depth(randX * gap, randY * gap, -5 , goal);
+
+if(position_meeting(finish.x,finish.y,entrance)){
+	for(xx = 0; xx < room_width; xx += gap){
+		for(yy = 0; yy < room_height; yy += gap){
+			if(position_empty(xx,yy)){
+				finish.x = xx;
+				finish.y = yy;
+			}
+		}
+	}
 }

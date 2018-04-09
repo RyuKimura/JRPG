@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "d4d24cec-f2d6-4cd6-8b81-38a3290c6325",
+            "Value": {
+                "id": "bc572edf-a591-4b2d-932b-c4bbeef506bf",
+                "resourcePath": "objects\\goal\\goal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dc44bd00-266a-4816-bdd4-60d40b823e5b",
             "Value": {
                 "id": "f8bb9b6f-696c-4e57-9756-4d104062d360",
@@ -404,6 +412,14 @@
                 "id": "c9931331-cf04-4a1e-b2d2-b8e5b33172e5",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f8e33f4a-e134-4be7-a4e6-951a3a43e224",
+            "Value": {
+                "id": "8ad8c261-4da1-4bcc-856b-2efd9a429e0e",
+                "resourcePath": "objects\\entrance\\entrance.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

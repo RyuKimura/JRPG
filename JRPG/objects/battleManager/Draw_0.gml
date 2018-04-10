@@ -7,12 +7,38 @@ squareDist = 52;
 
 if(current != noone)
 {
-	draw_sprite(point_spr,0,current.x-16,current.y-48);
+	if(actionType == "nothing")
+	{
+		draw_sprite_ext(point_spr,0,current.x-48,current.y+16,1,1,90,c_white,1);
+	}
+	
+	if(actionType == "target")
+	{
+		if(currentSelect != noone)
+		{
+			draw_sprite_ext(point_spr,0,currentSelect.x-16,currentSelect.y-64,1,1,0,c_white,1);
+		}
+	}
+}
+
+if(actionTarget == "enemy")
+{
+	draw_text(32,224,"Damage = " + string(dmg));
+}
+if(actionTarget == "friend")
+{
+	draw_text(32,224,"Heal = " + string(heal));
 }
 
 draw_text(32,32,"Menu Count - " + string(menuMax));
 
-draw_rectangle(32,480-32,128,room_height-32,true);
+draw_text(32,128,"Selected Action - " + string(action));
+
+draw_text(32,160,"Target Type - " + string(actionTarget));
+
+draw_text(32,192,"Num = " + string(num));
+
+draw_rectangle(32,480-32,128+extraRoom,room_height-32,true);
 
 for(i = 0; i < menuMax; i++)
 {
@@ -30,6 +56,20 @@ for(i = 0; i < menuMax; i++)
 		draw_sprite_ext(sprIconInd,0,i_x,i_y,0.75,0.75,0,c_white,1);
 	}
 	
+	switch(menuType)
+	{
+		case 2:
+			draw_text(i_x+32,i_y,"x" + string(item[i,1]));
+			break;
+			
+		case 1:
+			if(current != noone)
+			{
+				draw_text(i_x+32,i_y,string(current.spell[i,1]) + "mp");
+			}
+			break;
+	}
+	
 	menuIconX[i] = i_x;
 	menuIconY[i] = i_y;
 }
@@ -43,3 +83,4 @@ if(menuNum >= 0 and menuNum < menuMax)
 	draw_set_alpha(0.25);
 	draw_circle_color(menuIconX[menuNum],menuIconY[menuNum],24,c_yellow,c_yellow,false);
 }
+

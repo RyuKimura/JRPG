@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "cbd0b09a-1f2a-4dd1-92c5-e3872d39ff4b",
+            "Value": {
+                "id": "3b95e788-88ed-4d8b-9585-2baab1e8785e",
+                "resourcePath": "scripts\\MapGeneration\\MapGeneration.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "c234d0ee-d988-4603-992e-86d48cad759a",
@@ -347,6 +355,14 @@
             "Value": {
                 "id": "d248ba67-cc96-4b77-ad16-720352c8206e",
                 "resourcePath": "objects\\rock_obj\\rock_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d4d24cec-f2d6-4cd6-8b81-38a3290c6325",
+            "Value": {
+                "id": "bc572edf-a591-4b2d-932b-c4bbeef506bf",
+                "resourcePath": "objects\\goal\\goal.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -407,16 +423,17 @@
             }
         },
         {
-            "Key": "f4b950f1-6c73-4836-8dd9-f07618e02004",
+            "Key": "f8e33f4a-e134-4be7-a4e6-951a3a43e224",
             "Value": {
-                "id": "0c35b951-c640-4537-9e70-a501ddf5ed1c",
-                "resourcePath": "objects\\inventoryManager\\inventoryManager.yy",
+                "id": "8ad8c261-4da1-4bcc-856b-2efd9a429e0e",
+                "resourcePath": "objects\\entrance\\entrance.yy",
                 "resourceType": "GMObject"
             }
         }
     ],
     "script_order": [
         "585dd0b8-e32f-4c99-b6f1-05a833104b68",
+        "cbd0b09a-1f2a-4dd1-92c5-e3872d39ff4b",
         "0ac7be3a-ccd0-4a44-bff4-94ff490bb880"
     ],
     "tutorial": ""

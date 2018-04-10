@@ -1,1 +1,0 @@
-MapGen(Wall,200,4);

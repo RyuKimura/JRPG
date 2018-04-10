@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "cbd0b09a-1f2a-4dd1-92c5-e3872d39ff4b",
+            "Value": {
+                "id": "3b95e788-88ed-4d8b-9585-2baab1e8785e",
+                "resourcePath": "scripts\\MapGeneration\\MapGeneration.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "c234d0ee-d988-4603-992e-86d48cad759a",
@@ -425,6 +433,7 @@
     ],
     "script_order": [
         "585dd0b8-e32f-4c99-b6f1-05a833104b68",
+        "cbd0b09a-1f2a-4dd1-92c5-e3872d39ff4b",
         "0ac7be3a-ccd0-4a44-bff4-94ff490bb880"
     ],
     "tutorial": ""

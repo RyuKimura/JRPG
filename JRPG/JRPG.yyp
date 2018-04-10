@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "ed4a541c-b084-4061-9fe5-f73c01818986",
+            "Value": {
+                "id": "85ca6f0c-837b-4948-87e2-e47a920e4316",
+                "resourcePath": "objects\\inventoryManager\\inventoryManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "efb85756-a390-45c2-a9d9-1c04fd42b059",
             "Value": {
                 "id": "52edcbe7-a968-4f80-80dc-cf4adf993aca",

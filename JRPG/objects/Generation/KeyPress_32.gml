@@ -1,1 +1,0 @@
-MapGeneration(Wall,200,4);

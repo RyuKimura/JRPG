@@ -1,1 +1,1 @@
-MapGen(Wall,50,8);
+MapGen(Wall,200,4);

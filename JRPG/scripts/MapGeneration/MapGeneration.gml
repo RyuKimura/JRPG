@@ -1,12 +1,13 @@
-///MapGeneration(wallObject,numTunnels,maxTunnelLength)
+///MapGeneration(wallObject,numTunnels,maxTunnelLength,array, ItemFrequency, maxItems)
 
+ds_list_clear(argument3);
+instance_destroy(Item);
 instance_destroy(Wall);
 instance_destroy(entrance);
 instance_destroy(goal);
 
 randomize();
 
-var array = ds_list_create();
 var gap = 32;
 
 
@@ -27,7 +28,7 @@ while(true){
 }
 
 var strt = instance_create_depth(randX, randY, 0 , argument0);
-ds_list_add(array,strt);
+ds_list_add(argument3,strt);
 instance_create_depth(randX, randY, -6 , entrance);
 
 while(argument1 != 0){
@@ -44,10 +45,10 @@ while(argument1 != 0){
 		}
 		if(!position_meeting(randX,randY,argument0)){
 			var temp = instance_create_depth(randX, randY, 0 , argument0);
-			ds_list_add(array,temp);
+			ds_list_add(argument3,temp);
 		}
 		else{
-			var randPos = array[| floor(random(ds_list_size(array)))];
+			var randPos = argument3[| floor(random(ds_list_size(argument3)))];
 			randX = randPos.x;
 			randY = randPos.y;
 			continue;
@@ -56,15 +57,17 @@ while(argument1 != 0){
 	argument1--;
 }
 
-var randPos = array[| floor(random(ds_list_size(array)))];
+var randPos = argument3[| floor(random(ds_list_size(argument3)))];
 
 var finish = instance_create_depth(randPos.x, randPos.y, -5 , goal);
 
 while(true){
 	if(position_meeting(finish.x,finish.y,entrance)){
-		randPos = array[| floor(random(ds_list_size(array)))];
+		randPos = argument3[| floor(random(ds_list_size(argument3)))];
 		finish.x = randPos.x;
 		finish.y = randPos.y;
 	}
 	else break;
 }
+
+ItemGeneration(argument3,argument4, argument5);

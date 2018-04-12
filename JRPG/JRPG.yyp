@@ -175,6 +175,22 @@
             }
         },
         {
+            "Key": "4f0c76de-fecf-4419-a171-ff8973b896ad",
+            "Value": {
+                "id": "1fea0cdf-87d1-4769-8e69-58caa5bd0369",
+                "resourcePath": "objects\\Item\\Item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5478dfe4-f1cd-4ece-8e7f-7fb2fc26eaa4",
+            "Value": {
+                "id": "ea948975-e0c2-421f-8853-909fd788558b",
+                "resourcePath": "scripts\\ItemGeneration\\ItemGeneration.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "585dd0b8-e32f-4c99-b6f1-05a833104b68",
             "Value": {
                 "id": "e58adaeb-8016-4e10-8816-18b15e953660",
@@ -284,6 +300,14 @@
                 "id": "3daa9f5c-4d90-4acf-8066-c0515b9f7e83",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa01d1e9-4e7c-44e8-a726-92ce23e83b9e",
+            "Value": {
+                "id": "a90dc0fd-d95a-4de8-a1ba-3a6bbee3ae42",
+                "resourcePath": "sprites\\item_sprite\\item_sprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -451,7 +475,8 @@
         "585dd0b8-e32f-4c99-b6f1-05a833104b68",
         "cbd0b09a-1f2a-4dd1-92c5-e3872d39ff4b",
         "0ac7be3a-ccd0-4a44-bff4-94ff490bb880",
-        "6843b657-70af-4596-93da-81bb9436c9e8"
+        "6843b657-70af-4596-93da-81bb9436c9e8",
+        "5478dfe4-f1cd-4ece-8e7f-7fb2fc26eaa4"
     ],
     "tutorial": ""
 }

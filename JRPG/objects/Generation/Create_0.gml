@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//MapGen(Wall,200,4);
-MapGeneration(Wall,200,4);
+array = ds_list_create();
+MapGeneration(Wall,200,4,array, 1, 5);

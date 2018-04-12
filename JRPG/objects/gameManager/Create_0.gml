@@ -3,7 +3,9 @@
 
 // declare globals
 
-globalvar player, enemy, playerPartySize, enemyPartySize;
+randomise();
+
+globalvar player, enemy, playerPartySize, enemyPartySize, totalPartySize, currentNum, turnOrder;
 
 // Player Start Positions
 
@@ -34,12 +36,55 @@ playerPartySize = 3;
 
 enemyPartySize = irandom_range(1,4);
 
+totalPartySize = playerPartySize + enemyPartySize;
+
+currentNum = 1;
+
 for(i = 1; i <= playerPartySize; i++)
 {
 	player[i] = instance_create_depth(startPositionPlayerX[i],startPositionPlayerY[i],100,idiot_obj);
+	player[i].name = "Player " + string(i);
+	player[i].number = i;
+	fighters[i] = player[i];
 }
 
 for(i = 1; i <= enemyPartySize; i++)
 {
 	enemy[i] = instance_create_depth(startPositionEnemyX[i],startPositionEnemyY[i],100,rock_obj);
+	enemy[i].name = "Enemy " + string(i);
+	fighters[(i + playerPartySize)] = enemy[i];
 }
+
+// Turn Order
+
+
+
+for(ii = totalPartySize; ii >= 1; ii-=1)
+{
+	turnOrder[ii] = noone;
+}
+
+
+
+for(i = 1; i <= totalPartySize; i++)
+{
+	for(ii = totalPartySize; ii >= 1; ii-=1)
+	{
+		if(turnOrder[ii] != noone)
+		{
+			if(fighters[i].agi > fighters[ii].agi)
+			{
+				turnOrder[ii+1] = fighters[ii];
+				turnOrder[ii] = fighters[i];
+			}
+		}
+		else
+		{
+			turnOrder[ii] = fighters[i];
+		}
+	}
+}
+
+active = true;
+
+instance_create_depth(x,y,100,battleManager);

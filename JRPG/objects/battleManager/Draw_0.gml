@@ -23,20 +23,30 @@ if(current != noone)
 
 if(actionTarget == "enemy")
 {
-	draw_text(32,224,"Damage = " + string(dmg));
+	draw_text(32,256,"Damage = " + string(dmg));
 }
 if(actionTarget == "friend")
 {
-	draw_text(32,224,"Heal = " + string(heal));
+	draw_text(32,256,"Heal = " + string(heal));
+	draw_rectangle_color(190+(num*200),588,360+(num*200),670,c_green,c_green,c_green,c_green,true);
 }
 
-draw_text(32,32,"Menu Count - " + string(menuMax));
+//draw_text(32,32,"Menu Count - " + string(menuMax));
+
+draw_text(32,32,"Turn = " + string(turn));
 
 draw_text(32,128,"Selected Action - " + string(action));
 
 draw_text(32,160,"Target Type - " + string(actionTarget));
 
-draw_text(32,192,"Num = " + string(num));
+draw_text(32,192,"Turn Number = " + string(turnNumber));
+
+draw_text(32,224,"Num = " + string(num));
+
+if(turn == "player")
+{
+	draw_rectangle_color(190+(current.number*200),588,360+(current.number*200),670,c_yellow,c_yellow,c_yellow,c_yellow,true);
+}
 
 draw_rectangle(32,480-32,128+extraRoom,room_height-32,true);
 
@@ -84,3 +94,15 @@ if(menuNum >= 0 and menuNum < menuMax)
 	draw_circle_color(menuIconX[menuNum],menuIconY[menuNum],24,c_yellow,c_yellow,false);
 }
 
+// Party UI
+
+for(i = 1; i <= playerPartySize; i++)
+{
+	draw_set_alpha(1);
+	draw_set_color(c_white);
+	draw_text(200+(i*200),598,"Name: " + string(player[i].name));
+	draw_text(200+(i*200),620,"HP: " + string(player[i].hp));
+	draw_text(200+(i*200),642,"MP: " + string(player[i].mp));
+}
+
+draw_sprite_ext(point_spr,0,290,64+(32*turnNumber),1,1,90,c_white,1);

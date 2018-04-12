@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "24bdd72c-c384-488d-a906-8a2a22ac1cfc",
+            "Value": {
+                "id": "81ef2ba4-c973-468e-ac15-87bf5682832d",
+                "resourcePath": "views\\24bdd72c-c384-488d-a906-8a2a22ac1cfc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2501bab2-42fa-41a6-b957-037618777bca",
             "Value": {
                 "id": "c9df2965-5b63-4bbb-b260-ccf7534c4830",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "428553a6-3028-46f9-b987-6a7327087f69",
+            "Value": {
+                "id": "8a3344fc-65a7-49ae-b765-0ce06faa84cc",
+                "resourcePath": "scripts\\MenuButtons\\MenuButtons.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "44a84656-7e4c-4557-94e4-f036ce0df2f0",
             "Value": {
                 "id": "91c94a6d-aaa8-4fce-b510-d46580c3a3ac",
@@ -204,6 +220,14 @@
                 "id": "664c76d3-7e8d-46cf-8d61-cc7613917462",
                 "resourcePath": "views\\5e8ec67f-3530-4f9f-83ca-9ff09ac908d6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "63feb5a0-8f0e-4db8-b7ad-64aa79f1b433",
+            "Value": {
+                "id": "4cfb31c6-5e12-4425-ad3a-161999d4906a",
+                "resourcePath": "scripts\\PlayerTargeting\\PlayerTargeting.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -476,7 +500,9 @@
         "cbd0b09a-1f2a-4dd1-92c5-e3872d39ff4b",
         "0ac7be3a-ccd0-4a44-bff4-94ff490bb880",
         "6843b657-70af-4596-93da-81bb9436c9e8",
-        "5478dfe4-f1cd-4ece-8e7f-7fb2fc26eaa4"
+        "5478dfe4-f1cd-4ece-8e7f-7fb2fc26eaa4",
+        "428553a6-3028-46f9-b987-6a7327087f69",
+        "63feb5a0-8f0e-4db8-b7ad-64aa79f1b433"
     ],
     "tutorial": ""
 }

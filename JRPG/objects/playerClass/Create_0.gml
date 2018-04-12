@@ -3,6 +3,10 @@
 
 // Stats
 
+name = "Player";
+
+type = "player";
+
 hp = irandom_range(75,150);
 mp = irandom_range(30,60);
 atk = irandom_range(10,30);

@@ -7,6 +7,8 @@ currentSelect = noone;
 
 turn = "player";
 
+turnNumber = 1;
+
 num = 1;
 
 dir = 1;

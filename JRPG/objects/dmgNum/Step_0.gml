@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(hp <= 0)
+time -= 1;
+
+if(time <= 0)
 {
-	dead = true;
+	instance_destroy();
 }

@@ -4,10 +4,12 @@ switch(menu[1,menuNum])
 	case "Zio":
 	case "Garu":
 	case "Bufu":
-		dmg = 10;
+		int = 10;
+		moveType = "damage";
 		break;
 		
 	case "Dia":
-		heal = 15;
+		int = 15;
+		moveType = "heal";
 		break;	
 }

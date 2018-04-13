@@ -5,6 +5,8 @@
 
 name = "Enemy";
 
+dead = false;
+
 type = "enemy";
 
 hp = irandom_range(75,150);

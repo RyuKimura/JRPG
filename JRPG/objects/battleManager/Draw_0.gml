@@ -23,11 +23,11 @@ if(current != noone)
 
 if(actionTarget == "enemy")
 {
-	draw_text(32,256,"Damage = " + string(dmg));
+	//draw_text(32,256,"Damage = " + string(dmg));
 }
 if(actionTarget == "friend")
 {
-	draw_text(32,256,"Heal = " + string(heal));
+	//draw_text(32,256,"Heal = " + string(heal));
 	draw_rectangle_color(190+(num*200),588,360+(num*200),670,c_green,c_green,c_green,c_green,true);
 }
 

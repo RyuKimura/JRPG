@@ -59,7 +59,7 @@ for(i = 1; i <= enemyPartySize; i++)
 
 
 
-for(ii = totalPartySize; ii >= 1; ii-=1)
+for(ii = totalPartySize+1; ii >= 1; ii-=1)
 {
 	turnOrder[ii] = noone;
 }
@@ -72,15 +72,20 @@ for(i = 1; i <= totalPartySize; i++)
 	{
 		if(turnOrder[ii] != noone)
 		{
-			if(fighters[i].agi > fighters[ii].agi)
+			if(turnOrder[ii] != fighters[i])
 			{
-				turnOrder[ii+1] = fighters[ii];
-				turnOrder[ii] = fighters[i];
+				if(fighters[i].agi > turnOrder[ii].agi)
+				{
+					tempOrder = turnOrder[ii];
+					turnOrder[ii] = fighters[i];
+					turnOrder[ii+1] = tempOrder;
+				}
 			}
 		}
 		else
 		{
 			turnOrder[ii] = fighters[i];
+			turnOrder[ii+1] = noone;
 		}
 	}
 }

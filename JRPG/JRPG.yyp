@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "249c66f2-96bd-4fa5-ab6a-f34565c2edcb",
+            "Value": {
+                "id": "7d606407-7a1d-466a-9b83-0fd17d6f5e38",
+                "resourcePath": "scripts\\enemyGen\\enemyGen.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "24bdd72c-c384-488d-a906-8a2a22ac1cfc",
             "Value": {
                 "id": "81ef2ba4-c973-468e-ac15-87bf5682832d",
@@ -116,6 +124,22 @@
                 "id": "256a9c28-ac8b-4617-a280-95358ddb32f2",
                 "resourcePath": "views\\2ae1249c-fbde-4976-8066-63baf3f4fd5b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2d1c9730-4f41-44a4-a308-b80a8fac12df",
+            "Value": {
+                "id": "8d919502-aee7-4aba-97b4-214f6bbe07bd",
+                "resourcePath": "views\\2d1c9730-4f41-44a4-a308-b80a8fac12df.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2edbdbf7-5f91-4d95-b8d8-2fb4e2c34855",
+            "Value": {
+                "id": "d1e4ea42-6a3c-40c9-97ce-908b8e1955eb",
+                "resourcePath": "objects\\skullEnemy\\skullEnemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -471,6 +495,14 @@
             }
         },
         {
+            "Key": "eb661894-b35e-49b0-85ea-bd9d4444f68f",
+            "Value": {
+                "id": "fcace83c-a1cf-4cf7-b97a-e9db63dc7814",
+                "resourcePath": "sprites\\enemySprite\\enemySprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ed4a541c-b084-4061-9fe5-f73c01818986",
             "Value": {
                 "id": "85ca6f0c-837b-4948-87e2-e47a920e4316",
@@ -511,7 +543,8 @@
         "5478dfe4-f1cd-4ece-8e7f-7fb2fc26eaa4",
         "428553a6-3028-46f9-b987-6a7327087f69",
         "63feb5a0-8f0e-4db8-b7ad-64aa79f1b433",
-        "786c006f-5735-443c-83e3-57ab4af897d9"
+        "786c006f-5735-443c-83e3-57ab4af897d9",
+        "249c66f2-96bd-4fa5-ab6a-f34565c2edcb"
     ],
     "tutorial": ""
 }

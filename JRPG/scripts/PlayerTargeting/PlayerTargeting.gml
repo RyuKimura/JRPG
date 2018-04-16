@@ -2,6 +2,7 @@ switch(actionTarget)
 {	
 	case "enemy":
 		targetPartySize = enemyPartySize;
+		
 		while(currentSelect == noone)
 		{	
 			if(currentSelect == noone)
@@ -24,6 +25,11 @@ switch(actionTarget)
 		
 		if(currentSelect != noone)
 		{
+			if(currentSelect.dead = true)
+			{
+				num += 1*dir;
+			}
+			
 			if(num > targetPartySize)
 			{
 				num = 1;
@@ -34,7 +40,14 @@ switch(actionTarget)
 				num = targetPartySize;
 			}
 			
-			currentSelect = enemy[num];
+			if(instance_exists(enemy[num]) == true)
+			{
+				currentSelect = enemy[num];
+			}
+			else
+			{
+				currentSelect = noone;
+			}
 		}
 		break;
 		

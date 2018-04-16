@@ -18,3 +18,5 @@ str = irandom_range(1,10);
 agi = irandom_range(1,10);
 int = irandom_range(1,10);
 luck = irandom_range(1,10);
+
+dead = false;

@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "48bceaa5-2b85-42f0-9b8d-ec5245a4bea5",
+            "Value": {
+                "id": "c4c85a79-114f-4f23-abd1-6b4662d4ccc5",
+                "resourcePath": "objects\\overworldParty\\overworldParty.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a00adc4-18bf-4c02-90c2-1886c7d5181c",
             "Value": {
                 "id": "e6564a4e-90be-4257-9933-6277c35d94be",
@@ -567,6 +575,14 @@
             }
         },
         {
+            "Key": "f6b61ca8-e5c9-49f4-a86d-c97bba128d5e",
+            "Value": {
+                "id": "91615cbc-8155-4e1d-bec9-91bbb92ec1a1",
+                "resourcePath": "sprites\\dead_spr\\dead_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f8e33f4a-e134-4be7-a4e6-951a3a43e224",
             "Value": {
                 "id": "8ad8c261-4da1-4bcc-856b-2efd9a429e0e",
@@ -580,12 +596,12 @@
         "cbd0b09a-1f2a-4dd1-92c5-e3872d39ff4b",
         "0ac7be3a-ccd0-4a44-bff4-94ff490bb880",
         "6843b657-70af-4596-93da-81bb9436c9e8",
-        "5478dfe4-f1cd-4ece-8e7f-7fb2fc26eaa4",
         "428553a6-3028-46f9-b987-6a7327087f69",
         "63feb5a0-8f0e-4db8-b7ad-64aa79f1b433",
         "d0028c49-37e2-4293-a240-7458ab824f70",
         "c3ec4d7b-015b-4b84-b392-3bf59ff56981",
         "786c006f-5735-443c-83e3-57ab4af897d9",
+        "5478dfe4-f1cd-4ece-8e7f-7fb2fc26eaa4",
         "249c66f2-96bd-4fa5-ab6a-f34565c2edcb"
     ],
     "tutorial": ""

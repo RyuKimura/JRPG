@@ -9,7 +9,8 @@
         "b69d7ae6-fdad-426d-803c-256485b531b9",
         "b41a0d13-f022-498b-ab5e-31b423233a10",
         "e21a0d1d-93dd-4070-bc5e-6f35c842a228",
-        "93f3052f-d744-4575-b068-9ea2304fc9b0"
+        "93f3052f-d744-4575-b068-9ea2304fc9b0",
+        "f6b61ca8-e5c9-49f4-a86d-c97bba128d5e"
     ],
     "filterType": "GMSprite",
     "folderName": "Battle Icons",

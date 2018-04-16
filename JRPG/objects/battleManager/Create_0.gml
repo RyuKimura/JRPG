@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+globalvar currentEnemyAlive, currentPartyAlive;
+
 current = noone;
 
 currentSelect = noone;
@@ -24,6 +26,10 @@ action = "nothing"
 dmg = 0;
 
 heal = 0;
+
+currentPartyAlive = playerPartySize;
+
+currentEnemyAlive = enemyPartySize;
 
 // Action Menu
 

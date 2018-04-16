@@ -9,14 +9,20 @@ if(current != noone)
 {
 	if(actionType == "nothing")
 	{
-		draw_sprite_ext(point_spr,0,current.x-48,current.y+16,1,1,90,c_white,1);
+		if(current.dead == false)
+		{
+			draw_sprite_ext(point_spr,0,current.x-48,current.y+16,1,1,90,c_white,1);
+		}
 	}
 	
 	if(actionType == "target")
 	{
 		if(currentSelect != noone)
 		{
-			draw_sprite_ext(point_spr,0,currentSelect.x-16,currentSelect.y-64,1,1,0,c_white,1);
+			if(currentSelect.dead == false)
+			{
+				draw_sprite_ext(point_spr,0,currentSelect.x-16,currentSelect.y-64,1,1,0,c_white,1);
+			}
 		}
 	}
 }

@@ -100,4 +100,12 @@ if(turn == "enemy")
 			num = 1;
 		}
 	}
+	
+	currentNum += 1;
+	
+}
+
+if(currentEnemyAlive <= 0)
+{
+	room_goto(room0);
 }

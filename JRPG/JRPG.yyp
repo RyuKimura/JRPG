@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "c3ec4d7b-015b-4b84-b392-3bf59ff56981",
+            "Value": {
+                "id": "bf951f85-2320-4cf3-98eb-1be32042feb5",
+                "resourcePath": "scripts\\nextTurn\\nextTurn.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cbd0b09a-1f2a-4dd1-92c5-e3872d39ff4b",
             "Value": {
                 "id": "3b95e788-88ed-4d8b-9585-2baab1e8785e",
@@ -452,6 +460,14 @@
                 "id": "870abe9c-ecd8-4742-b46f-6e35fc520951",
                 "resourcePath": "views\\cec04e91-6a84-4c06-8229-ad850df7fa21.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d0028c49-37e2-4293-a240-7458ab824f70",
+            "Value": {
+                "id": "8a537e9f-8557-43bb-9029-1f68ccf8d566",
+                "resourcePath": "scripts\\actionExecute\\actionExecute.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -567,6 +583,8 @@
         "5478dfe4-f1cd-4ece-8e7f-7fb2fc26eaa4",
         "428553a6-3028-46f9-b987-6a7327087f69",
         "63feb5a0-8f0e-4db8-b7ad-64aa79f1b433",
+        "d0028c49-37e2-4293-a240-7458ab824f70",
+        "c3ec4d7b-015b-4b84-b392-3bf59ff56981",
         "786c006f-5735-443c-83e3-57ab4af897d9",
         "249c66f2-96bd-4fa5-ab6a-f34565c2edcb"
     ],

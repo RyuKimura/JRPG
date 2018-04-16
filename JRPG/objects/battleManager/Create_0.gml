@@ -1,13 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-globalvar current, currentSelect;
-
 current = noone;
 
 currentSelect = noone;
 
-turn = "nothing";
+turn = "player";
 
 turnNumber = 1;
 
@@ -22,8 +20,6 @@ actionType = "nothing";
 actionTarget = "nothing";
 
 action = "nothing"
-
-moveType = "nothing"
 
 dmg = 0;
 

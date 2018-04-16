@@ -28,31 +28,6 @@ if(actionType == "target")
 
 switch(actionType)
 {
-	case "target":
-		switch(menuType)
-		{
-			case 0:
-				if(keyboard_check_pressed(vk_space))
-				{
-					int = current.atk;
-					moveType = "damage";
-					actionExecute();
-					nextTurn();
-				}
-				break;
-				
-			case 1:
-				if(keyboard_check_pressed(vk_space))
-				{
-					SpellList();
-					actionExecute();
-					nextTurn();
-				}
-				break;
-			
-		}
-		break;
-	
 	case "nothing":
 		switch(menuType)
 		{
@@ -72,8 +47,9 @@ switch(actionType)
 						case "Attack":
 							actionType = "target";
 							actionTarget = "enemy";
+							dmg = current.atk;
 							action = menu[menuType,menuNum];
-							break;		
+							break;	
 					}
 				}
 				break;
@@ -101,6 +77,18 @@ switch(actionType)
 				break;	
 		}
 		break;
+		
+	case "target":
+		switch(menuType)
+		{
+			case 1:
+				if(keyboard_check_pressed(vk_space))
+				{
+					SpellList();
+				}
+				break;
+			
+		}
 }
 
 

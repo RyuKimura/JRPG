@@ -84,39 +84,20 @@ if(turn == "player")
 
 if(turn == "enemy")
 {
-	if(current.dead != true)
-	{
-	int = 0;
-	actionType = "nothing";
-	actionTarget = "nothing";
-	action = "nothing";
-	
-	currentNum += 1;
-	
 	partySize = enemyPartySize;
 	
-		while(current == noone)
-		{
-			current = enemy[num];
-			
-			if(current == noone)
-			{
-				num += 1;
-			}
-			
-			if(num > partySize)
-			{
-				num = 1;
-			}
-		}
-	}
-	else
+	while(current == noone)
 	{
-	int = 0;
-	actionType = "nothing";
-	actionTarget = "nothing";
-	action = "nothing";
-	
-	currentNum += 1;
+		current = enemy[num];
+		
+		if(current == noone)
+		{
+			num += 1;
+		}
+		
+		if(num > partySize)
+		{
+			num = 1;
+		}
 	}
 }

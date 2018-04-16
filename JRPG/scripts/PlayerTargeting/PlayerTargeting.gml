@@ -36,11 +36,6 @@ switch(actionTarget)
 			
 			currentSelect = enemy[num];
 		}
-		
-		if(currentSelect.dead == true)
-		{
-			num += 1;
-		}
 		break;
 		
 	case "friend":

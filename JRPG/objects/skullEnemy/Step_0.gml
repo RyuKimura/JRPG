@@ -3,7 +3,9 @@
 
 switch(AIState){
 	case "moving": 
-			
+			if(mp_potential_step_object(destination.x,destination.y,5,blockade)) {
+				destination = mapData.array[| floor(random(ds_list_size(mapData.array)))];
+			}
 			break;
 	
 	

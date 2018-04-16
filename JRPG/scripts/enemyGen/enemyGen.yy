@@ -1,8 +1,8 @@
 {
-    "id": "97e69fc0-0416-4ed8-b759-011288e1676a",
+    "id": "249c66f2-96bd-4fa5-ab6a-f34565c2edcb",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "nextTurn",
+    "name": "enemyGen",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -7,7 +7,7 @@ current = noone;
 
 currentSelect = noone;
 
-turn = "player";
+turn = "nothing";
 
 turnNumber = 1;
 

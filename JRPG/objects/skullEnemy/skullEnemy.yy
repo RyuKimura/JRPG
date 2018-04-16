@@ -1,0 +1,111 @@
+{
+    "id": "2edbdbf7-5f91-4d95-b8d8-2fb4e2c34855",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "skullEnemy",
+    "eventList": [
+        {
+            "id": "bf57c83f-0e0c-4e20-a98a-518c5e52d148",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "2edbdbf7-5f91-4d95-b8d8-2fb4e2c34855"
+        },
+        {
+            "id": "76445411-8ab1-4231-8ca4-3d989764bf5e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "2edbdbf7-5f91-4d95-b8d8-2fb4e2c34855"
+        },
+        {
+            "id": "2e49f2d2-0087-4fc9-9fbc-7d14dd346cf7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "2edbdbf7-5f91-4d95-b8d8-2fb4e2c34855"
+        },
+        {
+            "id": "7b2786b4-0a38-4343-bf7d-cea5aab7489a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "2edbdbf7-5f91-4d95-b8d8-2fb4e2c34855"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "728f8b8e-c0b4-420b-b65a-703981d9e955",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Generation",
+            "varName": "mapData",
+            "varType": 5
+        },
+        {
+            "id": "33fac070-5125-4f0b-8316-c69e79f1cb5d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"moving\"",
+            "varName": "AIState",
+            "varType": 2
+        },
+        {
+            "id": "6bd4491b-2e91-4da7-acdc-115359efa7cd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "destination",
+            "varType": 5
+        }
+    ],
+    "solid": false,
+    "spriteId": "eb661894-b35e-49b0-85ea-bd9d4444f68f",
+    "visible": true
+}

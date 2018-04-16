@@ -13,9 +13,9 @@ instance_destroy(Item);
 instance_destroy(skullEnemy);
 instance_destroy(Wall);
 instance_destroy(entrance);
+instance_destroy(blockade);
 
-
-var gap = 32;
+var gap = sprite_get_width(Sprite_Wall);
 var strt;
 var randX;
 var randY;
@@ -50,7 +50,7 @@ if(first){
 
 ds_list_add(argument3,strt);
 
-
+//continue to make tunnels of paths 
 while(argument1 != 0){
 	var len = floor(random_range(1,argument2));
 	var dir = choose(0,1,2,3); // 0 = up	 1 = down  2 = left  3 = right
@@ -77,12 +77,14 @@ while(argument1 != 0){
 	argument1--;
 }
 
+//create the goal 
 instance_destroy(goal);
 
 var randPos = argument3[| floor(random(ds_list_size(argument3)))];
 
 var finish = instance_create_depth(randPos.x, randPos.y, -5 , goal);
 
+//make sure its not overlapping with the entrance
 while(true){
 	if(position_meeting(finish.x,finish.y,entrance)){
 		randPos = argument3[| floor(random(ds_list_size(argument3)))];
@@ -90,6 +92,14 @@ while(true){
 		finish.y = randPos.y;
 	}
 	else break;
+}
+
+for(i = 0; i != ds_list_size(argument3); i++){
+	var kk = argument3[|i];
+	if(position_empty(kk.x + gap, kk.y)) instance_create_depth(kk.x + gap, kk.y, -10, blockade);
+	if(position_empty(kk.x - gap, kk.y)) instance_create_depth(kk.x - gap, kk.y, -10, blockade);
+	if(position_empty(kk.x, kk.y + gap)) instance_create_depth(kk.x, kk.y + gap, -10, blockade);
+	if(position_empty(kk.x, kk.y - gap)) instance_create_depth(kk.x, kk.y - gap, -10, blockade);
 }
 
 ItemGeneration(argument3,argument4, argument5);

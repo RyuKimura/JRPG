@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "7a974b59-e05e-49e7-8934-05059a3ff69c",
+            "Value": {
+                "id": "2c1e5641-f13b-47e5-8fe4-2e869be9eb08",
+                "resourcePath": "sprites\\blockade_sprite\\blockade_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7cc7c4ed-16a2-42ca-abfa-f0b1c65ce870",
             "Value": {
                 "id": "6a4feb64-52c4-4d98-8c7a-e0c975a8e7db",
@@ -348,6 +356,14 @@
                 "id": "4b665c78-c140-4ab4-8356-125eb455bf71",
                 "resourcePath": "views\\9a9c6903-fee4-4230-891d-c84d64069d34.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a413837f-0c59-4f4f-82a7-820dfa21102f",
+            "Value": {
+                "id": "64e447d3-b7e8-492a-b294-b647571cab80",
+                "resourcePath": "objects\\blockade\\blockade.yy",
+                "resourceType": "GMObject"
             }
         },
         {

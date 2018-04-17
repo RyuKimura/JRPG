@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_self();
-draw_line(x,y,destination.x,destination.y);
+//draw_line(x,y,destination.x,destination.y);

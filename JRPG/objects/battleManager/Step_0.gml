@@ -1,6 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(currentEnemyAlive <= 0)
+{
+	room_goto(room0);
+}
+
+if(currentPartyAlive <= 0)
+{
+	room_goto(room0);
+}
+
+
 menuMax = array_length_2d(menu,0);
 
 switch(menuNum)
@@ -38,15 +49,26 @@ while(current == noone)
 
 if(current != noone)
 {
-	if(turnNumber > totalPartySize)
-	{
-		turnNumber = 1;
-	}
-	
-	if(turnNumber < 1)
-	{
-		turnNumber = totalPartySize;
-	}
+	//while(current.dead == true)
+	//{
+		//if(currentEnemyAlive > 0 && currentPartyAlive > 0)
+		//{
+		
+		//turnNumber += 1;
+		
+		if(turnNumber > totalPartySize)
+		{
+			turnNumber = 1;
+		}
+		
+		if(turnNumber < 1)
+		{
+			turnNumber = totalPartySize;
+		}
+		
+		//current = turnOrder[turnNumber];
+		//}
+	//}
 	
 	current = turnOrder[turnNumber];
 }
@@ -101,19 +123,20 @@ if(turn == "enemy")
 		}
 	}
 	
-	EnemyTargeting();
-	
+	if(turnTimer <= turnTimerMax)
+	{
+		turnTimer += 1;
+		
+		if(turnTimer >= turnTimerMax)
+		{
+			EnemyTargeting();
+			drawAction = true;
+			turnTimer = 0;
+			nextTurn();
+		}
+	}
 	//currentNum += 1;
 	
 }
 
-if(currentEnemyAlive <= 0)
-{
-	room_goto(room0);
-}
-
-if(currentPartyAlive <= 0)
-{
-	room_goto(room0);
-}
 

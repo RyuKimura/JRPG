@@ -25,6 +25,10 @@ action = "nothing"
 
 dmg = 0;
 
+turnTimerMax = 60;
+
+turnTimer = 0;
+
 heal = 0;
 
 currentPartyAlive = playerPartySize;
@@ -40,6 +44,8 @@ menuNum = 0;
 lastMenuPos = 0;
 
 extraRoom = 0;
+
+drawAction = false;
 
 // Menu Types //
 /*

@@ -29,11 +29,11 @@ if(current != noone)
 
 if(actionTarget == "enemy")
 {
-	draw_text(32,256,"Damage = " + string(dmg));
+	//draw_text(32,256,"Damage = " + string(dmg));
 }
 if(actionTarget == "friend")
 {
-	draw_text(32,256,"Heal = " + string(heal));
+	//draw_text(32,256,"Heal = " + string(heal));
 	draw_rectangle_color(190+(num*200),588,360+(num*200),670,c_green,c_green,c_green,c_green,true);
 }
 
@@ -48,6 +48,8 @@ draw_text(32,160,"Target Type - " + string(actionTarget));
 draw_text(32,192,"Turn Number = " + string(turnNumber));
 
 draw_text(32,224,"Num = " + string(num));
+
+draw_text(32,256,"turnTimer = " + string(turnTimer) + " / " + string(turnTimerMax));
 
 if(turn == "player")
 {
@@ -101,6 +103,11 @@ if(menuNum >= 0 and menuNum < menuMax)
 }
 
 // Party UI
+
+if(drawAction == true)
+{
+	draw_text((room_width/2)-32,128,string(action));
+}
 
 for(i = 1; i <= playerPartySize; i++)
 {

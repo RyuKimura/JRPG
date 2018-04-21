@@ -18,12 +18,12 @@ switch(enemyAction)
 			int = current.atk;
 			moveType = "damage";
 			actionExecute();
-			nextTurn();
+			//nextTurn();
 		}
 		break;
 		
 	default:
-		nextTurn();
+		//nextTurn();
 		break;
 	
 }

@@ -10,8 +10,8 @@ vkDown = keyboard_check(vk_down);
 hspd = vkRight + vkLeft;
 vspd = vkDown + vkUp;
 
-x += hspd
-y += vspd;
+x += hspd*spd
+y += vspd*spd;
 
 enemy = instance_nearest(x,y,skullEnemy)
 

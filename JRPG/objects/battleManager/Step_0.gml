@@ -101,7 +101,9 @@ if(turn == "enemy")
 		}
 	}
 	
-	currentNum += 1;
+	EnemyTargeting();
+	
+	//currentNum += 1;
 	
 }
 
@@ -109,3 +111,9 @@ if(currentEnemyAlive <= 0)
 {
 	room_goto(room0);
 }
+
+if(currentPartyAlive <= 0)
+{
+	room_goto(room0);
+}
+

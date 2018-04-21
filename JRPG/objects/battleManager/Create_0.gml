@@ -3,11 +3,11 @@
 
 globalvar currentEnemyAlive, currentPartyAlive;
 
-current = noone;
+current = turnOrder[1];
 
 currentSelect = noone;
 
-turn = "player";
+turn = "nothing";
 
 turnNumber = 1;
 

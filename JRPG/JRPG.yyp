@@ -239,14 +239,6 @@
             }
         },
         {
-            "Key": "585dd0b8-e32f-4c99-b6f1-05a833104b68",
-            "Value": {
-                "id": "e58adaeb-8016-4e10-8816-18b15e953660",
-                "resourcePath": "scripts\\MapGen\\MapGen.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "5e8ec67f-3530-4f9f-83ca-9ff09ac908d6",
             "Value": {
                 "id": "664c76d3-7e8d-46cf-8d61-cc7613917462",
@@ -592,7 +584,6 @@
         }
     ],
     "script_order": [
-        "585dd0b8-e32f-4c99-b6f1-05a833104b68",
         "cbd0b09a-1f2a-4dd1-92c5-e3872d39ff4b",
         "0ac7be3a-ccd0-4a44-bff4-94ff490bb880",
         "6843b657-70af-4596-93da-81bb9436c9e8",
